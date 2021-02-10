@@ -2,9 +2,22 @@
 <html lang="ja">
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>FizzBuzz問題</title>
 	</head>
-	<body></body>
+	<body>
+		<h1>FizzBuzz問題</h1>
+		<div>
+			<span style="margin-right: 8px">FizzNum:</span>
+			<input type="text" id="inputNum" placeholder="整数を入力してください" />
+		</div>
+		<div>
+			<span>BuzzNum:</span>
+			<input type="text" id="inputNum2" placeholder="整数を入力してください" />
+		</div>
+		<input type="button" value="実行" onclick="calculateNum()" />
+		<script src="main.js"></script>
+		<p>【出力】</p>
+		<div id="outputNum"></div>
+	</body>
 </html>
